@@ -36,7 +36,7 @@ drush --version
 
 # Install Drush addons.
 sudo mkdir -p /usr/share/drush/commands/
-sudo mv drush_addons/make_templates ~/make_templates
+sudo mv drush_addons/make_templates ~/.drush/make_templates
 sudo mv drush_addons /usr/share/drush/commands/quickstart
 drush cc drush
 
